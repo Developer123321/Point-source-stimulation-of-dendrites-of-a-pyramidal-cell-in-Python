@@ -1,0 +1,21 @@
+proc init_biomech() {
+	forall {
+	  Ra = ra 
+	  cm = c_m 
+	  g_pas = 1/rm
+	  e_pas = epas_sim
+	  vshiftm_na= na_shift1
+	  vshifth_na= na_shift2
+	  taum_scale_na=na_taum_scale
+	  tauh_scale_na=na_tauh_scale
+	  q10_iH=ih_q10
+	  shift_cah=cah_shift
+	  shifth_cah=cah_shifth
+
+	  shift_car=car_shift
+	  shifth_car=car_shifth
+	  qm_car=car_qm
+	  
+	  vshift_na = -5
+	}
+}
